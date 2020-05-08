@@ -41,9 +41,9 @@ jar {
 }
 
 spigot {
-    authors = List.of("")
-    softDepends = List.of("")
-    apiVersion = "1.15.2"
+    // authors = List.of("")
+    // softDepends = List.of("")
+    apiVersion = "1.15"
     load = Load.STARTUP
     commands {}
 }
