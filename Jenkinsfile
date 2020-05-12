@@ -1,6 +1,4 @@
-node('docker-cli') {
-  cleanWs()
-
+node {
   docker.image('gradle:jdk11').inside {
     stage('Setup') {
       checkout scm
